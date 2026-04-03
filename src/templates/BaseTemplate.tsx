@@ -1,6 +1,8 @@
 import type { ReactNode } from 'react';
 
 type IBaseTemplateProps = {
+  leftNav?: ReactNode;
+  rightNav?: ReactNode;
   children: ReactNode;
 };
 
